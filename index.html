@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <style>* {box-sizing: border-box}
+        body{
+            background-color: rgb(183, 169, 229);
+        }
+
+        .container {
+          padding: 16px;
+        }
+        
+        input[type=text], input[type=password] {
+            
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: rgb(208, 201, 232);
+       
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: white;
+          outline: none;
+          
+        }
+        
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+        
+        .registerbtn {
+          
+          background-color: rgb(208, 201, 232);
+          width: 100%;
+          border: none;
+          cursor: pointer;
+          margin: 8px 0;
+          padding: 16px 20px;
+          color: white;
+          transition-duration: .4s;
+          
+        }
+        
+        .registerbtn:hover {
+          opacity:1;
+        
+        }
+       
+        button:active {
+          transform: scale(.9);
+          color: rgb(208, 201, 232);
+        }   
+    </style>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktoriia Horecha</title>
+</head>
+<body>
+    <div class="container">
+          
+          
+          <h1 style="color: white;">Rejestracja na wycieczkę do Energylandii</h1>
+          <hr>
+
+          <label for="imie" style="color: white;"><b>Imię</b></label>
+          <div class="container1"><input type="text" placeholder="Imię" name="text" id="text" required=""></div>
+
+          <label for="imie" style="color: white;"><b>Nazwisko</b></label>
+          <div class="container1"><input type="text" placeholder="Nazwisko" name="text" id="text" required=""></div>
+
+          <label for="email" style="color: white;"><b>Email</b></label>
+          <div class="container1"><input type="text" placeholder="Email" name="email" id="email" required=""></div>
+
+          <label for="gender" style="color: white;"><b>Wybór Płci</b></label>
+          <select name="gender" id="gender" required="">
+            <option value="Mężczyzna">Mężczyzna</option>
+            <option value="Kobieta">Kobieta</option>
+          </select>
+         <br>
+         <br>
+          <label for="wiek" style="color: white;"><b>Wiek</b></label>
+          <div class="container1"><input type="text" placeholder="Wiek" name="text" id="text" required=""></div>
+         <br>
+          <label for="Posiłek" style="color: white;"><b>Wybór atrakcji</b></label>
+          <select name="Posiłek" id="Posiłek" required="">
+            <option value="pizza">pizza</option>
+            <option value="burger">burger</option>
+            <option value="hot-dog">hot-dog</option>
+          </select>
+         <br>
+         <br>
+
+          <label for="atrakcja" style="color: white;"><b>Wybór atrakcji</b></label>
+          <select name="atrakcja" id="atrakcja" required="">
+            <option value="Hyperion">Hyperion</option>
+            <option value="Zadra">Zadra</option>
+            <option value="Mayan">Mayan</option>
+          </select>
+         <br>
+         <br>
+          <button type="submit" class="registerbtn">Register</button>
+        
+    </div>
+</div>
+</body>
+</html>
