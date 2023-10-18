@@ -53,7 +53,50 @@
         button:active {
           transform: scale(.9);
           color: rgb(208, 201, 232);
-        }   
+        }  
+        #atrakcja{
+    color:  white;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: rgb(208, 201, 232);
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    -webkit-box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+            box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid rgb(208, 201, 232);
+    margin: 0;
+    font-weight: 200;
+}
+#Posiłek{
+    color:  white;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: rgb(208, 201, 232);
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    -webkit-box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+            box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid rgb(208, 201, 232);
+    margin: 0;
+    font-weight: 200;
+}
+
+#gender{
+    color:  white;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: rgb(208, 201, 232);
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    -webkit-box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+            box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid rgb(208, 201, 232);
+    margin: 0;
+    font-weight: 200;
+}
     </style>
   
     <meta charset="UTF-8">
@@ -76,7 +119,8 @@
           <label for="email" style="color: white;"><b>Email</b></label>
           <div class="container1"><input type="text" placeholder="Email" name="email" id="email" required=""></div>
 
-          <label for="gender" style="color: white;"><b>Wybór Płci</b></label>
+          <label for="gender" style="color: white;" class="ggender"><b>Wybór Płci</b></label>
+          <br>
           <select name="gender" id="gender" required="">
             <option value="Mężczyzna">Mężczyzna</option>
             <option value="Kobieta">Kobieta</option>
@@ -86,7 +130,7 @@
           <label for="wiek" style="color: white;"><b>Wiek</b></label>
           <div class="container1"><input type="text" placeholder="Wiek" name="text" id="text" required=""></div>
          <br>
-          <label for="Posiłek" style="color: white;"><b>Wybór atrakcji</b></label>
+          <label for="Posiłek" style="color: white;"><b>Wybór jedzenia</b></label>
           <select name="Posiłek" id="Posiłek" required="">
             <option value="pizza">pizza</option>
             <option value="burger">burger</option>
@@ -104,7 +148,6 @@
          <br>
          <br>
           <button type="submit" class="registerbtn">Register</button>
-        
     </div>
 </div>
 </body>
